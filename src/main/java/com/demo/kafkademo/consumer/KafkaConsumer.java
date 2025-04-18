@@ -1,4 +1,4 @@
-package com.demo.kafkademo.service;
+package com.demo.kafkademo.consumer;
 
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 import java.util.UUID;
 
 @Service
-public class KafkaConsumerService {
+public class KafkaConsumer {
 
     private final String consumerId = UUID.randomUUID().toString();
 
